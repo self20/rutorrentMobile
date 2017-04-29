@@ -17,6 +17,9 @@ select {
 .table {
   margin-bottom: 0;
 }
+.table-striped{
+ 	table-layout:fixed;
+}
 .icon-white {
   color: white;
 }
