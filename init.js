@@ -1257,6 +1257,7 @@ dxSTable.prototype.createRow = function(cols, sId, icon, attr)
       $('link[rel=stylesheet]').remove();
       plugin.loadLang();
       plugin.loadCSS('css/bootstrap.min');
+      plugin.loadCSS('mobile');
       plugin.loadMainCSS();
       $('head').append('<meta name="apple-mobile-web-app-capable" content="yes" />');
       if (plugin.bootstrapJS)
